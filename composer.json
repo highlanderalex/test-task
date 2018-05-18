@@ -1,0 +1,13 @@
+{
+	"autoload": {
+		"psr-4": {
+			"luxury\\": "app/luxury/core",
+			"app\\": "app"
+		}
+	},
+	"require": {
+		"gabordemooij/redbean": "dev-master",
+		"symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+	}
+}
